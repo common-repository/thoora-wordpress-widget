@@ -1,0 +1,327 @@
+@font-face {
+	font-family: trade_gothic;
+	src: url('fonts/TradeGothicLTStd-BdCn20.eot'); /* FOR IEs */
+	src: local('trade_gothic'), url('fonts/TradeGothicLTStd-BdCn20.ttf') format('truetype'); /* for other web browsers */
+}
+
+@font-face {
+	font-family: calibri;
+	src: url('fonts/Calibri.eot'); /* FOR IEs */
+	src: local('calibri'), url('fonts/Calibri.ttf') format('truetype'); /* for other web browsers */
+}
+
+@font-face {
+	font-family: calibriBold; 
+	src: url('fonts/CalibriBold.eot'); /* FOR IEs */
+	src: local('calibriBold'), url('fonts/CalibriBold.ttf') format('truetype'); /* for other web browsers */
+}
+
+#thoora-wrapper div,
+#thoora-wrapper a {
+	font-family:calibri, sans-serif !important;
+	font-weight:normal !important;
+}
+
+div#thoora-wrapper {
+	width: 254px;
+	max-height:806px;
+}
+
+#thoora-wrapper img {
+	max-width:100% !important;
+}
+#thoora-wrapper .thoora-backgroundWrapper {
+	background-color:#E6E6E6;	
+}
+
+#thoora-wrapper a, #thoora-wrapper a:visited, #thoora-wrapper img, #thoora-wrapper a:link {
+	text-decoration: none;
+	border-style: none;
+	color: inherit;
+	outline: 0;		
+	font-weight:normal !important;
+}
+
+#thoora-wrapper .thoora-header {
+	width:254px;
+	height:61px;
+	background: url("images/header.png") no-repeat scroll 0 0 transparent;
+	position:relative;
+}
+
+#thoora-wrapper .thoora-header .thoora-topicTitle {
+    color: white;
+    font-family: trade_gothic,sans-serif !important;
+    font-size: 13pt;
+    height: 17px;
+    left: 46px;
+    letter-spacing: 0.3px;
+    overflow: hidden;
+    position: absolute;
+    top: 11px;
+    white-space: nowrap;
+    width: 200px;
+    line-height: 1 !important;
+    
+}
+
+#thoora-wrapper .thoora-header .thoora-topicInfo {
+    color: #9D9D9D;
+    font-size: 9pt;
+    height: 18px;
+    left: 46px;
+    overflow: hidden;
+    position: absolute;
+    top: 31px;
+    width: 132px;
+    white-space:nowrap;
+}
+
+#thoora-wrapper .thoora-header .thoora-topicImg {
+	left:8px;
+	top:13px;
+	position:absolute;
+}
+
+#thoora-wrapper .thoora-header .thoora-topicImg,
+#thoora-wrapper .thoora-header .thoora-topicImg img {
+	width:32px;
+	height:32px;
+}
+
+#thoora-wrapper .thoora-arrowRow {
+	height:20px;
+	width: 254px;
+	cursor:pointer;
+	opacity:0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+}
+#thoora-wrapper .thoora-arrowRow.thoora-arrowHide {
+	cursor:default;
+}
+
+#thoora-wrapper .thoora-arrowContainer {
+	width:21px;
+	height:10px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+}
+
+
+#thoora-wrapper .thoora-arrowContainer img {
+	float:left;			
+}
+
+#thoora-wrapper .thoora-scroll {
+	max-height:620px;
+	overflow:hidden;
+	min-height:197px;
+	position:relative;
+}
+#thoora-wrapper .th-custom-container {
+	background-color: #FDFDFD;
+
+    border-top: 4px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    border-left: 1px solid #D9D9D9;
+    border-right: 1px solid #D9D9D9;
+    height: 197px;
+    left: 6px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 242px;
+}
+#thoora-wrapper .th-custom-containerContent  {
+	position:relative;
+	width:226px;
+	height:189px;
+	left:8px;
+	top:4px;
+}
+#thoora-wrapper .th-custom-containerContent a {
+	color: #4A4A4A;
+}
+#thoora-wrapper .th-custom-typeIcon  {
+	width:20px;
+	height:20px;			
+	margin-bottom: 3px;
+}
+#thoora-wrapper .th-custom-typeIcon img  {
+	width:20px;
+	height:20px;
+}
+#thoora-wrapper .th-custom-innerContent  {
+	width:226px;
+	height:166px;
+	position:relative;
+}
+
+
+#thoora-wrapper .th-custom-containerContent .thoora-news.thoora-withPic .thoora-title  {
+    font-size: 12pt;
+    font-family: calibriBold, trade_gothic, sans-serif !important;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 226px;
+}
+
+#thoora-wrapper .th-custom-containerContent .thoora-news.thoora-noPic .thoora-title  {
+        font-family: calibriBold,trade_gothic,sans-serif !important;
+    font-size: 12pt;
+    line-height: 17px;
+    max-height: 30px;
+    overflow: hidden;
+    padding-bottom: 7px;
+    width: 226px;
+}
+#thoora-wrapper .th-custom-containerContent .thoora-news.thoora-noPic .thoora-desc  {
+    font-size: 9pt;
+    line-height: 14px;
+    max-height: 125px;
+    min-height: 95px;
+    overflow: hidden;
+    width: 226px;
+    letter-spacing: 0.3px;
+    color: #6D6D6D;
+}
+#thoora-wrapper .th-custom-containerContent .thoora-news.thoora-withPic .thoora-date  {
+	font-size: 8pt;
+    position: absolute;
+    text-align: right;
+    bottom:0px;
+    right:0px;
+    color: #9D9D9D;
+}
+#thoora-wrapper .th-custom-containerContent .thoora-news.thoora-noPic .thoora-date  {
+	font-size: 8pt;
+    position: absolute;
+    text-align: right;
+    bottom:0px;
+    right:0px;
+    width:226px;
+    background-color:#FDFDFD;
+    color: #9D9D9D;
+    height:16px;
+}
+#thoora-wrapper .th-custom-containerContent .thoora-news.thoora-withPic .thoora-image  {
+	width:226px;
+	height:133px;
+}
+#thoora-wrapper .th-custom-containerContent .thoora-news.thoora-withPic .thoora-image img {
+	width:226px;
+}
+
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-text {
+    background-color:#444444;
+    position:relative;
+    white-space:normal;
+    color: #EFEFEF;
+    font-size: 10pt;
+    padding: 14px 12px 0;
+    word-wrap: break-word;
+    width:203px;
+    height:106px;
+    line-height:16px;
+}
+
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-text .thoora-twitterLink,
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-text .thoora-twitterLink a {
+	color: #96B800 !important;
+}
+
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-arrow {
+    width:14px;
+    height:7px;		    
+    left:20px;
+    position:relative;
+}
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-arrow img {
+    width:14px;
+    height:7px;		    
+    float:left;
+}
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-authorRow {
+    height:19px;
+    width:226px;
+}
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-authorRow .thoora-image {
+    height:19px;
+    width:19px;
+    float:left;
+}
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-authorRow .thoora-image img {
+    height:19px;
+    width:19px;
+}
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-authorRow .thoora-name {
+    font-size:9pt;
+    padding-top:1px;
+	font-family: calibriBold, trade_gothic, sans-serif !important;
+	width:150px;
+	float:left;
+	padding-left:6px;
+}
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-infoRow {
+	color: #9D9D9D;
+    height:12px;
+    width:226px;
+    font-size:8pt;
+    position:absolute;
+    bottom:6px;
+    letter-spacing:0.5px;
+    
+}
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-infoRow .thoora-username {
+    width:70px;
+    float:left;
+   
+}
+#thoora-wrapper .th-custom-containerContent .thoora-tweets .thoora-infoRow .thoora-date {
+    width:150px;
+    float:right;
+    text-align:right;
+}
+
+#thoora-wrapper .thoora-footer {
+	width:254px;
+	height:51px;
+}
+
+#thoora-wrapper .thoora-button a {    
+    -moz-user-select: none;
+    background-color: #4e4e4e;
+    border-color: #999999;
+    border-top: 2px solid #999999;
+    bottom: 10px;
+    cursor: pointer;
+    font-family: trade_gothic,sans-serif !important;
+    font-size: 8pt;
+    height: 16px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    padding-top: 1px;
+    position: absolute;
+    right: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60px;
+    line-height:1.625;
+}
+
+#thoora-wrapper .thoora-button,
+#thoora-wrapper .thoora-button a {
+	color:white;
+}
+
+#thoora-wrapper .thoora-button.pressed a {
+	border-top: medium none;
+    margin-bottom: 2px;
+}
+
+#thoora-wrapper .thoora-button.pressed a:hover,
+#thoora-wrapper .thoora-button a:hover {
+	color: #C9FC0B;
+}
